@@ -14,6 +14,8 @@ header {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: black;
     color: mintcream;
+    position:fixed;
+    width: 100%;
 }
 
 header h1 {
