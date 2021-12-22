@@ -18,6 +18,11 @@ header {
     width: 100%;
 }
 
+header img {
+    width:5%;
+    height: 5%;
+}
+
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -64,6 +69,7 @@ p {
 .the-thrill-haus img{
     height: 800px;
     width: 100%;
+    margin-top: 150px;
     margin-bottom: 20px;
     position: center;
 }
@@ -76,14 +82,19 @@ p {
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 310px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
     color:mintcream;
 }
 
 .about-me h2 {
+    margin-bottom: 0.5em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.about-me p {
+    margin-bottom: 1em;
 }
 
 .my-work {
@@ -109,7 +120,12 @@ p {
 }
 
 .contact-info h2 {
+    margin-bottom: 0.5em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contact-info p {
+    margin-bottom: 1em;
 }
 
 button {
