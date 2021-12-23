@@ -16,6 +16,7 @@ header {
     color: mintcream;
     position:fixed;
     width: 100%;
+    box-shadow: 5px 2px 5px cornflowerblue;
 }
 
 header img {
@@ -51,7 +52,7 @@ header nav ul li {
     color:mintcream;
 }
 
-.nav-class:hover {
+header nav ul li a:hover {
     color: cornflowerblue;
 }
 
@@ -166,6 +167,13 @@ p {
 
 .contact-info p {
     margin-bottom: 1em;
+}
+
+.form {
+    position: relative;
+    width: 20rem;
+
+    
 }
 
 strong {
