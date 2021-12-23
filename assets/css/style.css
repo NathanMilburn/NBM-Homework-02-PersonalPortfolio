@@ -51,6 +51,11 @@ header nav ul li {
     color:mintcream;
 }
 
+.nav-class:hover {
+    color: cornflowerblue;
+}
+
+
 body {
     font-size: 16px;
     line-height: 1;
@@ -78,8 +83,10 @@ p {
     height:400px;
     margin-top: 150px;
     margin-bottom: 0;
+    border-radius: 25px;
     display:inline-block;
     position: center;
+    box-shadow: 5px 2px 5px cornflowerblue;
 
 }
 
@@ -97,8 +104,10 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 310px;
+    border-radius: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
+    box-shadow: 5px 10px 5px cornflowerblue;
     color:mintcream;
 }
 
@@ -116,8 +125,10 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    border-radius: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
+    box-shadow: 5px 10px 5px cornflowerblue;
     color: mintcream;
 }
 
@@ -135,8 +146,10 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    border-radius: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
+    box-shadow: 5px 10px 5px cornflowerblue;
     color: mintcream;
 }
 
