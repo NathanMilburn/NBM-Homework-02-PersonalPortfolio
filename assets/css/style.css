@@ -66,17 +66,30 @@ p {
     font-size: 16px;
 }
 
+.the-thrill-haus p {
+    padding: 50px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color:mintcream;
+}
 
 .the-thrill-haus img{
-    height: 800px;
-    width: 100%;
+    height:400px;
     margin-top: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
+    display:inline-block;
     position: center;
+
 }
 
 .float-left {
     float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
     margin-right: 25px;
 }
 
@@ -114,6 +127,10 @@ p {
     color:cornflowerblue;
 }
 
+.my-work p {
+    margin-bottom: 1em;
+}
+
 .contact-info {
     margin-bottom: 20px;
     padding: 50px;
@@ -136,6 +153,10 @@ p {
 
 .contact-info p {
     margin-bottom: 1em;
+}
+
+strong {
+    color: cornflowerblue;
 }
 
 button {
