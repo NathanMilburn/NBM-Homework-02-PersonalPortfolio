@@ -10,6 +10,7 @@ body {
 }
 
 header {
+    height: 150px;
     padding: 30px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: black;
@@ -20,8 +21,8 @@ header {
 }
 
 header img {
-    width:5%;
-    height: 5%;
+    width:75px;
+    height: 75px;
     border-radius: 50px;
 }
 
@@ -73,6 +74,12 @@ p {
     font-size: 16px;
 }
 
+.the-thrill-haus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .the-thrill-haus p {
     padding: 50px;
     margin-bottom: 0;
@@ -85,12 +92,12 @@ p {
 }
 
 .the-thrill-haus img{
-    height:400px;
+    max-height:550px;
+    width:550px;
     margin-top: 150px;
     margin-bottom: 0;
     border-radius: 25px;
     display:inline-block;
-    position: center;
     box-shadow: 5px 2px 5px cornflowerblue;
 
 }
@@ -104,7 +111,13 @@ p {
     float: right;
 }
 
+#about-me {
+    position:absolute;
+    top:500px;
+}
+
 .about-me {
+    max-width: 100%;
     margin-bottom: 20px;
     padding: 50px;
     max-height: 310px;
@@ -125,13 +138,18 @@ p {
     margin-bottom: 1em;
 }
 
+.my-work-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .my-work-images img{
-    height:400px;
+    height:650px;
     margin-top: 0px;
     margin-bottom: 20px;
     border-radius: 25px;
     display:inline-block;
-    position: center;
     box-shadow: 5px 2px 5px cornflowerblue;
 
 }
@@ -139,6 +157,11 @@ p {
 .my-work a img {
     height: 200px;
     display: inline-block;
+}
+
+#my-work {
+    position:absolute;
+    top:1450px;
 }
 
 .my-work {
@@ -162,13 +185,18 @@ p {
     margin-bottom: 1em;
 }
 
+.contact-me-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .contact-me-images img {
-    height:400px;
+    height:500px;
     margin-top: 0px;
     margin-bottom: 0;
     border-radius: 25px;
     display:inline-block;
-    position: center;
     box-shadow: 5px 2px 5px cornflowerblue;
 }
 
@@ -201,8 +229,6 @@ p {
 .form {
     position: relative;
     width: 20rem;
-
-    
 }
 
 strong {
