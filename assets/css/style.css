@@ -57,6 +57,7 @@ header nav ul li a:hover {
 }
 
 
+
 body {
     font-size: 16px;
     line-height: 1;
@@ -74,10 +75,13 @@ p {
 
 .the-thrill-haus p {
     padding: 50px;
-    display: inline-block;
+    margin-bottom: 0;
+    display: flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: black;
+    background-color: cornflowerblue;
     color:mintcream;
+    border-radius: 25px;
+    box-shadow: 5px 2px 5px black;
 }
 
 .the-thrill-haus img{
@@ -98,13 +102,12 @@ p {
 
 .float-right {
     float: right;
-    margin-right: 25px;
 }
 
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
-    height: 310px;
+    max-height: 310px;
     border-radius: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
@@ -122,10 +125,26 @@ p {
     margin-bottom: 1em;
 }
 
+.my-work-images img{
+    height:400px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    display:inline-block;
+    position: center;
+    box-shadow: 5px 2px 5px cornflowerblue;
+
+}
+
+.my-work a img {
+    height: 200px;
+    display: inline-block;
+}
+
 .my-work {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    max-height: 300px;
     border-radius: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
@@ -143,10 +162,20 @@ p {
     margin-bottom: 1em;
 }
 
+.contact-me-images img {
+    height:400px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    border-radius: 25px;
+    display:inline-block;
+    position: center;
+    box-shadow: 5px 2px 5px cornflowerblue;
+}
+
 .contact-info {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    max-height: 300px;
     border-radius: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
