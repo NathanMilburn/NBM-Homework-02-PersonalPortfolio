@@ -333,7 +333,7 @@ footer nav ul li {
     }
 
      .about-me {
-        width: 146%;
+        width: 166%;
         margin-bottom: 20px;
         padding: 18px;
         height: 325px;
@@ -346,10 +346,10 @@ footer nav ul li {
     } 
 
     .my-work {
-        width: 146%;
+        width: 166%;
         margin-bottom: 20px;
         padding: 18px;
-        height: 325px;
+        height: 200px;
         border-radius: 25px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         background-color: black;
@@ -359,6 +359,11 @@ footer nav ul li {
 
     .my-work a {
         display: row;
+    }
+
+    .my-work a img {
+        height: 100px; 
+        display: inline-block;
     }
 
     .my-work-images img{
@@ -381,7 +386,7 @@ footer nav ul li {
     }
 
     .contact-info {
-        width: 146%;
+        width: 166%;
         margin-bottom: 20px;
         padding: 18px;
         height: 325px;
