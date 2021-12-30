@@ -295,7 +295,7 @@ footer nav ul li {
     color:mintcream;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 415px) {
     header {
         display:table-column;
         height: 250px;
@@ -358,7 +358,7 @@ footer nav ul li {
     }
 
     .my-work a {
-        display: table-row;
+        display: row;
     }
 
     .my-work-images img{
