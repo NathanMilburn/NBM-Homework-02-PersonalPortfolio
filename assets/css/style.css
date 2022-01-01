@@ -1,3 +1,4 @@
+/* Catch-all formatting for content not specifically formatted */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -295,7 +296,7 @@ footer nav ul li {
     color:mintcream;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 414px) {
     header {
         display:table-column;
         height: 250px;
