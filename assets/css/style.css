@@ -5,6 +5,7 @@
     margin: 0;
 }
 
+/* Changed the original background color of gray to a linear gradient of other monochrome colors */
 body {
     background-image: linear-gradient(90deg, black, gray, mintcream);
     color: mintcream;
@@ -13,6 +14,7 @@ body {
     height: 100%;
 }
 
+/* Fixed header to allow for the user to direct to any point of the page without the need to scroll back up to the top */
 header {
     height: 150px;
     padding: 30px;
@@ -39,6 +41,7 @@ header h1 .last-name {
     color:cornflowerblue;
 }
 
+/* Styling and formatting of my nav links in the header */
 header nav {
     padding-top: 45px;
     margin-right: 20px;
@@ -57,6 +60,7 @@ header nav ul li {
     color:mintcream;
 }
 
+/* Hover effect to better show the user which piece of content they will be directed to once they click the nav link */
 header nav ul li a:hover {
     color: cornflowerblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -94,6 +98,7 @@ p {
     box-shadow: 5px 2px 5px black;
 }
 
+/* Used a 150px buffer for the margin top to account for the space taken up by the fixed header */
 .the-thrill-haus img{
     max-height:550px;
     width:550px;
@@ -250,6 +255,7 @@ strong {
     color: cornflowerblue;
 }
 
+/* Stylization of my footer and Contact Me buttons to add additional accent to the monochrome colorway */
 button {
     height: 40px;
     padding: 10px;
@@ -296,6 +302,9 @@ footer nav ul li {
     color:mintcream;
 }
 
+/* Media query to format my page for mobile devices */
+/* I used 414px as the max width as it's the closest screen size to my personal mobile device, which helped for testing */
+/* Note for self: Look into why there is a visual discrepancy with mobile view in my devtools compared to its presentation on my actual mobile device */
 @media screen and (max-width: 414px) {
     header {
         display:table-column;
@@ -318,6 +327,7 @@ footer nav ul li {
         font-size: 30px;
     } 
 
+    /* Changed from a linear gradient to solid gray to make sure media query changes were sticking. The gradient also got replecated three times in columns in the mobile view, so a solid gray worked as a nice correction for this. */
     body {
         background: gray;
     }

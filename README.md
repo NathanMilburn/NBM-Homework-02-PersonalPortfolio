@@ -5,7 +5,7 @@ MY USER STORY
 
 AS AN aspiring web developer
 
-I WANT to create an articulate portfolio website showcasing work samples and side projects such as YouTube and Twich
+I WANT to create an articulate portfolio website showcasing my work samples and side projects such as YouTube and Twich
 
 SO THAT I can display my web development skills with a focus on optimization and accessibility for all users
 
@@ -17,9 +17,9 @@ I WANT to view a potential employee's deployed portfolio of work samples
 
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
+![DeployedPortfolioFromWebBrowser](./assets/images/portfolio-web-browser.png "Deployed Page from Web Browser")
 
-
-I began this process by creating an index.html sheet, and an assetts folder holding my style.css sheet and referenced images.
+I began this process by creating an index.html sheet, and an assets folder holding my style.css sheet and referenced images.
 
 Once I had created the blank template, I used the previous assignments code as a reference for structuring my header, body, content, and footer sections.
 
@@ -34,6 +34,8 @@ Next, I wanted to give content sections some separation from the sides of the sc
 To add additional flair, I implimented a corn flower blue box shadow on my header, images, content, and footer sections. I was surprised to notice that the additional usage of blue did not compromise the overall monochrome asthetic. 
 
 My next step was to create a fixed header that followed the user as they scrolled down the page. The header also featured nav links which would direct users to specific sections upon clicking the words. 
+
+![htmlNavLinkCode](./assets/images/html-code-top.png "indext.html code for my header nav links")
 
 After creating nav links to my About Me, My Work, and Contact Me sections, I decided to create an additional nav link that would return the user to the top of the page. This would allow the user to reach any point of the page directly from the nav bar in the header. 
 
@@ -53,11 +55,19 @@ Once the buttons were functional, I decided to add a hover effect which would ch
 
 With a fixed header I noticed that my nav links would push the content to the top of the page, but would cut off about half of the content by being covered by the fixed header. To correct this, I created anchor points above each section of content with an absolute position and a pixel buffer to give space for the content and the header.
 
+![MediaQueryTop](./assets/images/media-query-top.png "Beginning of my media query and it's max screen width parameters")
+
 Finally, I added another styling element to the header/nav bar where when the user hovers over a specific nav link, the text color would change from mint cream to corn flower blue while the font family changed from "Gill Sans" to "Impact."
 
 The next step was to format the site to be usable on mobile devices. I started this process with a media query and attempted a few different max-width values to use as a catch all for most mobile device screen sizes. 
 
 This step proved to be the most challenging of them all as I found discrepancies between the mobile view in my devtools and it's actual appearance on my mobile device. 
+
+Website display on my mobile device (iPhone SE)
+
+![DeployedPortfolioOnMobileTop](./assets/images/portfolio-mobile-top.jpg "Top of mobile view")
+
+![DeployedPortfolioOnMobileBottom](./assets/images/portfolio-mobile-bottom.jpg "Bottom of mobile view")
 
 
 
