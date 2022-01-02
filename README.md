@@ -35,7 +35,7 @@ To add additional flair, I implimented a corn flower blue box shadow on my heade
 
 My next step was to create a fixed header that followed the user as they scrolled down the page. The header also featured nav links which would direct users to specific sections upon clicking the words. 
 
-![htmlNavLinkCode](./assets/images/html-code-top.png "indext.html code for my header nav links")
+![htmlNavLinkCode](./assets/images/html-code-top.PNG "indext.html code for my header nav links")
 
 After creating nav links to my About Me, My Work, and Contact Me sections, I decided to create an additional nav link that would return the user to the top of the page. This would allow the user to reach any point of the page directly from the nav bar in the header. 
 
@@ -55,7 +55,7 @@ Once the buttons were functional, I decided to add a hover effect which would ch
 
 With a fixed header I noticed that my nav links would push the content to the top of the page, but would cut off about half of the content by being covered by the fixed header. To correct this, I created anchor points above each section of content with an absolute position and a pixel buffer to give space for the content and the header.
 
-![MediaQueryTop](./assets/images/media-query-top.png "Beginning of my media query and it's max screen width parameters")
+![MediaQueryTop](./assets/images/media-query-top.PNG "Beginning of my media query and it's max screen width parameters")
 
 Finally, I added another styling element to the header/nav bar where when the user hovers over a specific nav link, the text color would change from mint cream to corn flower blue while the font family changed from "Gill Sans" to "Impact."
 
