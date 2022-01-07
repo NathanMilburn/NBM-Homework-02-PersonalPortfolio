@@ -17,7 +17,7 @@ I WANT to view a potential employee's deployed portfolio of work samples
 
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
-![DeployedPortfolioFromWebBrowser](./assets/images/portfolio-web-browser.png "Deployed Page from Web Browser")
+![DeployedPortfolioFromWebBrowser](./assets/images/portfolio-web-browser-view.png "Deployed Page from Web Browser")
 
 I began this process by creating an index.html sheet, and an assets folder holding my style.css sheet and referenced images.
 
@@ -63,11 +63,14 @@ The next step was to format the site to be usable on mobile devices. I started t
 
 This step proved to be the most challenging of them all as I found discrepancies between the mobile view in my devtools and it's actual appearance on my mobile device. 
 
+To correct the visual discrepancy, I found that a media query break point of 578px as it was the most common break point for mobile devices. This allowed me to view the web page from my phone and my dev tools in the same way.
+
+With my mobile view, instead of decreasing the size of my image to fit all of them to the smaller screen, I took an approach to make the design comparable to an Instagram feed with one large photo between each section of text.
+
 Website display on my mobile device (iPhone SE)
 
-![DeployedPortfolioOnMobileTop](./assets/images/portfolio-mobile-top.jpg "Top of mobile view")
+![DeployedPortfolioOnMobileTop](./assets/images/portfolio-mobile-view.png "Full Mobile View")
 
-![DeployedPortfolioOnMobileBottom](./assets/images/portfolio-mobile-bottom.jpg "Bottom of mobile view")
 
 
 
