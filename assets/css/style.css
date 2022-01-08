@@ -204,6 +204,7 @@ p {
     border-color: 2px solid mintcream;
 }
 
+/* Instead of having the first example of my work being larger than the others, I chose to have each one grow in size with a highlighted border around them to give a visual queue to the user about which application they will be directed to. */
 .my-work a img:hover {
     height: 225px;
     border-radius: 25px;
