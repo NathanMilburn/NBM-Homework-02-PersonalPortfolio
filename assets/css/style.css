@@ -208,7 +208,9 @@ p {
 .my-work a img:hover {
     height: 225px;
     border-radius: 25px;
-    border: 5px solid cornflowerblue;
+    border: 3px solid cornflowerblue;
+    box-shadow: 0 0.3rem 1.3rem 0 cornflowerblue;
+    transition: transform 500ms;
     /* box-shadow: inset 0px 0px 8px var(--cornflowerblue), 0 0 15px var(--cornflowerblue); Attempted to add a glow effect to my work image examples but was unable to get it to function properly, will revisit later. */
 }
 
@@ -269,7 +271,7 @@ button {
     padding: 10px;
     margin-bottom: 10px;
     border: 2px solid black;
-    border-radius: 25px;
+    border-radius: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: cornflowerblue;
     color:mintcream
@@ -280,6 +282,8 @@ button {
 button:hover {
     background-color: black;
     border: 2px solid cornflowerblue;
+    box-shadow: 0 0.3rem 1.3rem 0 cornflowerblue;
+    transition: transform 150ms;
 }
 
 footer {
