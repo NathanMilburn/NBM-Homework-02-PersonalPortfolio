@@ -116,7 +116,10 @@
                     <button><a href="https://github.com/NathanMilburn">Lets Connect on GitHub!</a></button>
                 </li>
                 <li>
-                    <button><a href="">My Resume</a></button>
+                    <div class="modalBox" id="dialog" title="My Resume">
+                        <pdf src="assets/images/Resume-2.pdf" alt="Downloadable PDF of my resume">
+                    </div>
+                    <button class="opener" id="opener"> My Resume</button>
                 </li>
             </ul>
         </nav>
@@ -124,6 +127,29 @@
         <p>
             &copy; 2021 ThrillHaus Productions
         </p>
+        <script>
+            $( function resumePDF() {
+                $( "#dialog" ).dialog({
+                  autoOpen: false,
+                  show: {
+                    effect: "blind",
+                    duration: 1000
+                  },
+                  hide: {
+                    effect: "explode",
+                    duration: 1000
+                  }
+                });
+              
+                $( "#opener" ).on( "click", function resumePDF() {
+                  $( "#dialog" ).dialog( "open" );
+                });
+                
+              } );
+            </script>
     </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 </body>
 </html>
