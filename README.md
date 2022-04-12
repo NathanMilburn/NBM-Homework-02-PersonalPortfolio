@@ -1,23 +1,23 @@
 # NBM-Homework-02-PersonalPortfolio
 
-MY USER STORY
+## USER STORY
 
+    AS AN aspiring web developer
+    I WANT to create an articulate portfolio website showcasing my work samples and side projects such as YouTube and Twich
+    SO THAT I can display my web development skills with a focus on optimization and accessibility for all users
 
-AS AN aspiring web developer
+## SUPPLIED USER STORY
 
-I WANT to create an articulate portfolio website showcasing my work samples and side projects such as YouTube and Twich
+    AS AN employer
+    I WANT to view a potential employee's deployed portfolio of work samples
+    SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
-SO THAT I can display my web development skills with a focus on optimization and accessibility for all users
-
-SUPPLIED USER STORY
-
-AS AN employer
-
-I WANT to view a potential employee's deployed portfolio of work samples
-
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+## APPLICATION HOME PAGE
 
 ![DeployedPortfolioFromWebBrowser](./assets/images/portfolio-web-browser-view.png "Deployed Page from Web Browser")
+
+
+## INSTALLATION
 
 I began this process by creating an index.html sheet, and an assets folder holding my style.css sheet and referenced images.
 
@@ -72,7 +72,7 @@ Website display on my mobile device (iPhone SE)
 ![DeployedPortfolioOnMobileTop](./assets/images/portfolio-mobile-view.png "Full Mobile View")
 
 
-
+## APPLICATION IN USE
 
 [DeployedPortfolioApplication](https://nathanmilburn.github.io/NBM-Homework-02-PersonalPortfolio/)
 [DeployedPortfolioRepository](https://github.com/NathanMilburn/NBM-Homework-02-PersonalPortfolio.git)
